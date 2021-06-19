@@ -5,7 +5,6 @@
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: large;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 nav {
@@ -72,7 +71,7 @@ nav .header_right .algos {
   -ms-grid-columns: (16.66667%)[6];
       grid-template-columns: repeat(6, 16.66667%);
   place-content: center;
-  padding: 2% 0%;
+  padding: 2% 1%;
 }
 
 nav .header_right .algos button {
@@ -80,8 +79,7 @@ nav .header_right .algos button {
   border: none;
   color: white;
   outline: none;
-  padding: 5% 0%;
-  font-size: x-large;
+  padding: 5% 1%;
 }
 
 nav .header_right .algos button:hover {
@@ -140,6 +138,7 @@ section #Info_Cont2 {
 .hide {
   display: none;
 }
+
 
 /*
     *****************
